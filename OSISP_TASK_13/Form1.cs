@@ -16,5 +16,10 @@ namespace OSISP_TASK_13
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            pictureBox1.ImageLocation = "C:\\img.png";
+        }
     }
 }
